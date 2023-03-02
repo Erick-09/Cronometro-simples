@@ -1,0 +1,44 @@
+html{
+    background: fixed;
+    background-image: linear-gradient(red, black);
+    text-align: center;
+    /* Background foi colocado em 'fixed' para que o 'linear-gradient' 
+    nao fique se repetindo no site todo. E o texto do cronometro foi alinhado ao meio */
+}
+
+div{
+    font-size: 4em;
+    font-family: Fantasy;
+    /* A fonte da DIV foi colocada em 4em (tamanho da fonte é proporcional ao tamanhdo da tela) 
+    e o estilo da fonte é a 'Fantasy' */
+}
+
+button{
+    width: 10em;
+    height: 3em;
+    font-family: Fantasy;
+    font-size: 16px;
+    border-radius: 49%;
+    /* Aqui foi colocado o tamanho, estilo e fonte dos botões (iniciar, pausar e resetar) */
+}
+
+.iniciar-btn{
+    background-color: green;
+    /* A cor de fundo do botão iniciar foi colocado como verde */
+}
+
+.pausar-btn{
+    background-color: aqua;
+    /* A cor de fundo do botão pausar foi colocado como azul marinho */
+}
+
+.resetar-btn{
+    background-color:gray;
+    /* A cor de fundo do botão resetar foi colocado como cinza */
+}
+
+button:hover{
+    cursor:pointer;
+    /* Aqui colocamos um evento que assim que passar com o mouse sobre os botões,
+    ira aparecer um indicador de click */
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cronoStyle.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <div>
+        <h1 id="relogio">00:00:00</h1>
+        <!-- Contador do cronometro com a tag ID (deixando o cronometro com uma classe única)  -->
+
+        <button class="iniciar-btn" onclick="iniciar()">INICIAR</button> 
+        <!-- Botão para iniciar o cronometro com o atributo OnClick, para funcionar ao click-->
+
+        <button class="pausar-btn" onclick="pausar()">PAUSAR</button>
+        <!-- Botão para pausar o cronometro -->
+
+        <button class="resetar-btn" onclick="resetar()">RESETAR</button>
+        <!-- Botão para zerar o contador do cronometro -->
+    
+    </div>
+
+    <script src="cronoJS.js"></script>
+</body>
+</html>
